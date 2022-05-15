@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/d/untitled/wangdao_data/main.cpp
-iostream
+/mnt/d/untitled/wangdao_data/线性表/sqList.cpp
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
 -
 

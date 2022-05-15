@@ -70,29 +70,29 @@ CMakeFiles/wangdao_data.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangdao_data.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/untitled/wangdao_data/main.cpp -o CMakeFiles/wangdao_data.dir/main.cpp.s
 
-CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o: CMakeFiles/wangdao_data.dir/flags.make
-CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o: ../线性表/sqList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/untitled/wangdao_data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o -c /mnt/d/untitled/wangdao_data/线性表/sqList.cpp
+CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o: CMakeFiles/wangdao_data.dir/flags.make
+CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o: ../线性表/SqList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/untitled/wangdao_data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o -c /mnt/d/untitled/wangdao_data/线性表/SqList.cpp
 
-CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/untitled/wangdao_data/线性表/sqList.cpp > CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.i
+CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/d/untitled/wangdao_data/线性表/SqList.cpp > CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.i
 
-CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/untitled/wangdao_data/线性表/sqList.cpp -o CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.s
+CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/d/untitled/wangdao_data/线性表/SqList.cpp -o CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.s
 
 # Object files for target wangdao_data
 wangdao_data_OBJECTS = \
 "CMakeFiles/wangdao_data.dir/main.cpp.o" \
-"CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o"
+"CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o"
 
 # External object files for target wangdao_data
 wangdao_data_EXTERNAL_OBJECTS =
 
 wangdao_data: CMakeFiles/wangdao_data.dir/main.cpp.o
-wangdao_data: CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o
+wangdao_data: CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o
 wangdao_data: CMakeFiles/wangdao_data.dir/build.make
 wangdao_data: CMakeFiles/wangdao_data.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/untitled/wangdao_data/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable wangdao_data"

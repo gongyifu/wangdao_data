@@ -3,3 +3,5 @@
 
 CMakeFiles/wangdao_data.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o: ../线性表/sqList.cpp
+

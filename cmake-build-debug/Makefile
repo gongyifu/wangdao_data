@@ -150,32 +150,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-线性表/sqList.o: 线性表/sqList.cpp.o
+线性表/SqList.o: 线性表/SqList.cpp.o
 
-.PHONY : 线性表/sqList.o
+.PHONY : 线性表/SqList.o
 
 # target to build an object file
-线性表/sqList.cpp.o:
-	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o
-.PHONY : 线性表/sqList.cpp.o
+线性表/SqList.cpp.o:
+	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o
+.PHONY : 线性表/SqList.cpp.o
 
-线性表/sqList.i: 线性表/sqList.cpp.i
+线性表/SqList.i: 线性表/SqList.cpp.i
 
-.PHONY : 线性表/sqList.i
+.PHONY : 线性表/SqList.i
 
 # target to preprocess a source file
-线性表/sqList.cpp.i:
-	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.i
-.PHONY : 线性表/sqList.cpp.i
+线性表/SqList.cpp.i:
+	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.i
+.PHONY : 线性表/SqList.cpp.i
 
-线性表/sqList.s: 线性表/sqList.cpp.s
+线性表/SqList.s: 线性表/SqList.cpp.s
 
-.PHONY : 线性表/sqList.s
+.PHONY : 线性表/SqList.s
 
 # target to generate assembly for a file
-线性表/sqList.cpp.s:
-	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.s
-.PHONY : 线性表/sqList.cpp.s
+线性表/SqList.cpp.s:
+	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.s
+.PHONY : 线性表/SqList.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... 线性表/sqList.o"
-	@echo "... 线性表/sqList.i"
-	@echo "... 线性表/sqList.s"
+	@echo "... 线性表/SqList.o"
+	@echo "... 线性表/SqList.i"
+	@echo "... 线性表/SqList.s"
 .PHONY : help
 
 

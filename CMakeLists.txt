@@ -3,4 +3,4 @@ project(wangdao_data)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(wangdao_data main.cpp 线性表/sqList.cpp)
+add_executable(wangdao_data main.cpp 线性表/SqList.cpp 线性表/SqList.h)

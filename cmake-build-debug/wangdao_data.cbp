@@ -85,7 +85,10 @@
 		<Unit filename="/mnt/d/untitled/wangdao_data/main.cpp">
 			<Option target="wangdao_data"/>
 		</Unit>
-		<Unit filename="/mnt/d/untitled/wangdao_data/线性表/sqList.cpp">
+		<Unit filename="/mnt/d/untitled/wangdao_data/线性表/SqList.cpp">
+			<Option target="wangdao_data"/>
+		</Unit>
+		<Unit filename="/mnt/d/untitled/wangdao_data/线性表/SqList.h">
 			<Option target="wangdao_data"/>
 		</Unit>
 		<Unit filename="/mnt/d/untitled/wangdao_data/CMakeLists.txt">
