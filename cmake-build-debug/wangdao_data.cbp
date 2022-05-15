@@ -85,6 +85,9 @@
 		<Unit filename="/mnt/d/untitled/wangdao_data/main.cpp">
 			<Option target="wangdao_data"/>
 		</Unit>
+		<Unit filename="/mnt/d/untitled/wangdao_data/线性表/sqList.cpp">
+			<Option target="wangdao_data"/>
+		</Unit>
 		<Unit filename="/mnt/d/untitled/wangdao_data/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

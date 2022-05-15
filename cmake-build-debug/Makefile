@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+线性表/sqList.o: 线性表/sqList.cpp.o
+
+.PHONY : 线性表/sqList.o
+
+# target to build an object file
+线性表/sqList.cpp.o:
+	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.o
+.PHONY : 线性表/sqList.cpp.o
+
+线性表/sqList.i: 线性表/sqList.cpp.i
+
+.PHONY : 线性表/sqList.i
+
+# target to preprocess a source file
+线性表/sqList.cpp.i:
+	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.i
+.PHONY : 线性表/sqList.cpp.i
+
+线性表/sqList.s: 线性表/sqList.cpp.s
+
+.PHONY : 线性表/sqList.s
+
+# target to generate assembly for a file
+线性表/sqList.cpp.s:
+	$(MAKE) -f CMakeFiles/wangdao_data.dir/build.make CMakeFiles/wangdao_data.dir/线性表/sqList.cpp.s
+.PHONY : 线性表/sqList.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... 线性表/sqList.o"
+	@echo "... 线性表/sqList.i"
+	@echo "... 线性表/sqList.s"
 .PHONY : help
 
 
