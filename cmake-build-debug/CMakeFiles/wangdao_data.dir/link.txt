@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/wangdao_data.dir/main.cpp.o  -o wangdao_data 
