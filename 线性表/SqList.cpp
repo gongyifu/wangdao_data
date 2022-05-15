@@ -2,30 +2,30 @@
 // Created by gongy on 2022/5/15.
 //
 
-#include "SqList.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #define MAXSIZE 100
 
 /*静态定义顺序表*/
-typedef struct SqList{
+ struct SqList{
     int data[MAXSIZE];
     int length;
-}SqList;
+};
 
 /*动态定义顺序表*/
-typedef struct SeqList{
+ struct SeqList{
     int *data;
     int  MaxSize,length;
 };
 
 /*顺序表基本操作*/
 /*初始化顺序表*/
-void InitList(SqList *L);
+void InitList(SqList *L) {
+    L->length = 0;
+}
 /*插入*/
-bool ListInsert(SqList &L,int i,int e);
-
 bool ListInsert(SqList &L, int i, int e) {
     if(i<1||i>L.length+1)
         return false;
@@ -38,9 +38,7 @@ bool ListInsert(SqList &L, int i, int e) {
     return true;
 }
 
-void InitList(SqList *L) {
-    L->length = 0;
-}
+
 
 /*删除*/
 bool ListDelete(SqList &L,int i,int &e){
@@ -60,6 +58,3 @@ int ListFind(SqList &L,int e){
     return 0;
 }
 
-void InitList(SqList *L) {
-    L->length = 0;
-}

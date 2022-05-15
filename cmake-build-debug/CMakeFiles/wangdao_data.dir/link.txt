@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/wangdao_data.dir/main.cpp.o CMakeFiles/wangdao_data.dir/线性表/SqList.cpp.o  -o wangdao_data 
